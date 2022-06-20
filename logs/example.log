@@ -160,3 +160,6 @@ WARNING:root:And this, too
 DEBUG:root:This message should go to the log file
 INFO:root:So should this
 WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:Testing logging info
+WARNING:root:And this, too

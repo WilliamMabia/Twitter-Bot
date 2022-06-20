@@ -6,7 +6,7 @@ import getpass
 #Logging
 logging.basicConfig(filename='logs/example.log',level=logging.DEBUG) #Logging to file
 logging.debug('This message should go to the log file') 
-logging.info('So should this')
+logging.info('Testing logging info')
 logging.warning('And this, too')
 
 #os
