@@ -16,12 +16,12 @@ class TwitterConnector:
         self.auth.set_access_token(self.access_token, self.access_secret)
 
         #create connection to twitter api
-        self._api = tweepy.API(self.auth) 
+        self.api = tweepy.API(self.auth) 
 
         logging.debug("TwitterConnector initialized")
 
 
     def tweet(self, message):
-        self._api.update_status(message)
-        logging.debug("Tweeted: " + message)
+        self.api.update_status(message)
+        logging.info("Tweeted: " + message)
 
