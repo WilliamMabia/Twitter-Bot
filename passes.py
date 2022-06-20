@@ -4,7 +4,7 @@
 #https://api.twitter.com - this is the website URL
 #http://127.0.0.1:4000/auth/twitter/callback - this is the callback URL
 
-#renew passes tomorrow
+#renew passes later
 
 def get_passes():
     consumer_key = "QmJ2dSHiHqQ50kWYLB3kWXQ7C"
